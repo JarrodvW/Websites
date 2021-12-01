@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Balefurions</title>
+    <link href="Styles/index.css" rel="stylesheet" />
+    <link href="Styles/slideshow-container.css" rel="stylesheet" />
+</head>
+<body>   
+    <div>
+        <div class="logo"><a href="#"><img src="Images/Balefurions_Logo.png" /></a></div>
+        <nav>
+            <ul>
+                <li><img src="Images/Balefurion_Name.png" style="height: 55px;" /></li>
+                <li><a href="#pageA">Home</a></li>
+                <li><a href="#pageB">News Room</a></li>
+                <li><a href="#pageC">Players</a></li>
+                <li><a href="#pageD">Media</a></li>
+                <li><a href="#pageE">About Us</a></li>
+                <li><a href="#pageF">Contact</a></li> 
+                <li><audio controls="controls" autoplay loop ><source src="Music/Gameplay%20Trailer%20Theme%20Extended%20-%20Overwatch%202%20Music.mp3" type="audio/mpeg" ></audio></li>
+            </ul>
+        </nav>
+    </div>
+    <div style="margin: auto; width: 1920px;">
+
+        <section id="pageA">
+            <h1>Home</h1>
+            <div class="banner">
+                <img src="Images/Home_Image1.png" />
+            </div>
+
+        </section>
+
+        <section id="pageB">
+            <h1>News Room</h1>
+            <div id="newsbanners">
+                <div class="newsroom1">
+                    <img src="Images/News Room/Newsfeed1.png" />
+                </div>
+                <div class="newsroom2">
+                    <img src="Images/News Room/Newsfeed2.png" />
+                    <a href="#pageD"><img src="Images/News Room/Newsfeed3.png" /></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="pageC">
+            <h1>Players</h1>
+            <!--<center>
+                <div class="row">
+                    <div class="column">
+                        <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width:100%" />
+                        <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width:100%" />
+                        <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width:100%" />
+                    </div>
+                    <div class="columnrole">
+                        <img src="Images/OverwatchRoles/TANK.png" style="width:100%" />
+                        <img src="Images/OverwatchRoles/DAMAGE.png" style="width:100%" />
+                        <img src="Images/OverwatchRoles/SUPPORT.png" style="width:100%" />
+                    </div>
+                    <div class="column">
+                        <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width:100%" />
+                        <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width:100%" />
+                        <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width:100%" />
+                    </div>
+                </div>
+            </center>-->
+            <div class="playerslogo">
+                <img src="Images/Banner Images/OverwatchNameLogo.png" />
+            </div>
+            <div class="row" style="text-align:center; margin-top: 10px;">
+                <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width: 25%" />
+                <img src="Images/OverwatchRoles/TANK.png" style="width: 12%" />
+                <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width: 25%" />
+            </div>
+            <div class="row" style="text-align:center; margin-top: 10px;">
+                <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width: 25%" />
+                <img src="Images/OverwatchRoles/DAMAGE.png" style="width: 12%" />
+                <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width: 25%" />
+            </div>
+            <div class="row" style="text-align:center; margin-top: 10px;">
+                <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width: 25%" />
+                <img src="Images/OverwatchRoles/SUPPORT.png" style="width: 12%" />
+                <img src="Images/BioCards/Bio_Screen_Nadine.png" style="width: 25%" />
+            </div>
+        </section>
+
+        <section id="pageD">
+            <h1>Media</h1>
+            <br />
+            <div class="slideshow-container" style="border: solid #808080 1px">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="Images/Images/enemy01-2560.jpg" style="width:100%" />
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="Images/Images/enemy02-2560.jpg" style="width:100%" />
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="Images/Images/enemy03-2560.jpg" style="width:100%" />
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <br />
+
+            <div style="text-align:center">
+                <iframe src="https://www.youtube.com/embed/videoseries?list=PLAYFVhxsaqDtdUmvSddqTXF2_6qqIXXt-" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="border: solid white 1px"></iframe>
+                <iframe src="https://www.youtube.com/embed/videoseries?list=PLAYFVhxsaqDuOh4Ic5mRu5CiZVKCMVv66" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="border: solid white 1px"></iframe>
+            </div>
+        </section>
+
+        <section id="pageE">
+            <h1>About Us</h1>
+        </section>
+
+        <section id="pageF">
+            <h1>Contact</h1>
+            <br />
+            <div style="margin-left: 100px;">
+                <div>
+                    <h2>
+                        Follow Us on
+                        <a href="https://www.facebook.com/Balefurions/">
+                            <img src="../Images/blue-facebook-social-icon--icon-search-engine-0.png" style=" height: 50px; width: 50px" />
+                        </a>
+                    </h2>
+                </div>
+                <br />
+                <div class="fb-page" data-href="https://www.facebook.com/Balefurions/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+                <br />
+                <br />
+                <div>
+                    <h2>
+                        Follow Us on
+                        <a href="https://twitter.com/ZAOverwatch">
+                            <img src="../Images/TwitterIcon.jpg" style=" height: 50px; width: 50px" />
+                        </a>
+                    </h2>
+                </div>
+                <br />
+                <a class="twitter-timeline" data-lang="en" data-width="340" data-height="500" href="https://twitter.com/ZAOverwatch?ref_src=twsrc%5Etfw">Tweets by ZAOverwatch</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!--<div align="center">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- bottom page add -->
+    <!--<ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-9686259608373395"
+         data-ad-slot="9364067518"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </div> -->
+
+    <script src="scripts/slideshow.js"></script>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
+
+</body>
+</html>

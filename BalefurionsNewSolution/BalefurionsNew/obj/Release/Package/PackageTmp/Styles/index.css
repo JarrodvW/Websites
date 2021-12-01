@@ -1,0 +1,159 @@
+﻿body {
+    margin: 0;
+    padding: 75px 0px;
+    background: gray;
+    background-image: url('../Images/Background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    font-family: Arial;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    float: left;
+    
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: 1;
+    background: black;
+    border: solid #808080 1px;
+}
+
+ul {
+    /*width: fit-content;*/
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: table;
+    text-align: left;
+    
+}
+
+ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.logo img {
+    position: fixed;
+    margin-top: -30px;
+    margin-left: 50px;
+    height: 120px;
+    width: 120px;
+    z-index: 2;
+}
+
+nav a {
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: red;
+    transition: 0.5s;
+    text-transform: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 40pt;
+    border: solid #808080 1px;
+}
+
+h2 {
+    color: white;
+}
+
+
+
+.banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 68%;
+}
+
+
+
+#newsbanners {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 95%;
+}
+.newsroom1 img {
+    float: left;
+    width: 1150px;
+    height: 622px;
+    display: block;
+    border: solid #808080 1px;
+}
+
+.newsroom2 img {
+    width: 670px;
+    height: 310px;
+    display: block;
+    border: solid #808080 1px;
+}
+
+iframe {
+    margin-top: auto;
+    margin-left: auto;
+    width: 750px;
+    height: 425px;
+}
+
+/*.column {
+    float: left;
+    width: 28%;
+    padding: 5px;
+    
+}
+
+.columnrole {
+    float: left;
+    width: 22.5%;
+    padding: 5px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.playerslogo {
+    margin-top: 10px;
+    text-align: center;
+}
